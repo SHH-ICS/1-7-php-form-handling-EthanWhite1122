@@ -25,17 +25,15 @@
         <span class="mdl-layout-title">Title</span>
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-                    mdl-textfield--floating-label mdl-textfield--align-right">
+                    mdl-textfield--floating-label mdl-textfield--align-right"> </div>
           <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
             <i class="material-icons">search</i>
           </label>
           <div class="mdl-textfield__expandable-holder">
             <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
           </div>
-        </div>
-      </div>
       <!-- Bottom row, not visible on scroll -->
-      <div class="mdl-layout__header-row">
+      <div class="mdl-layout__header-row"></div>
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation -->
         <nav class="mdl-navigation">
@@ -57,14 +55,17 @@
     </div>
     <main class="mdl-layout__content">
       <div class="page-content"><!-- Your content goes here -->
-        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-        <!-- Accent-colored raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-          Submit
-        </button>
+        
         <!-- Textfield with Floating Label -->
 
         <form action="/handler.php" method"POST">
+
+          <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+          <!-- Accent-colored raised button with ripple -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            Submit
+          </button>
+          
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
             <input class="mdl-textfield__input" type="text" id="sample3">
             <label class="mdl-textfield__label" for="sample3">Name:</label> `
