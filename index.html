@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+  <link rel="manifest" href="Favicon/site.webmanifest">
 
-  <title>Page Title</title>
+  <title>Waffles are yummy</title>
 </head>
 
 <body>
@@ -22,18 +27,18 @@
       <!-- Top row, always visible -->
       <div class="mdl-layout__header-row">
         <!-- Title -->
-        <span class="mdl-layout-title">Title</span>
+        <span class="mdl-layout-title">What is your name?</span>
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                     mdl-textfield--floating-label mdl-textfield--align-right"> </div>
-          <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
-            <i class="material-icons">search</i>
-          </label>
-          <div class="mdl-textfield__expandable-holder">
-            <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
-          </div>
-      <!-- Bottom row, not visible on scroll -->
-      <div class="mdl-layout__header-row"></div>
+        <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
+        </div>
+        <!-- Bottom row, not visible on scroll -->
+        <div class="mdl-layout__header-row"></div>
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation -->
         <nav class="mdl-navigation">
@@ -45,34 +50,35 @@
       </div>
     </header>
     <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Title</span>
+      <span class="mdl-layout-title">Welcome</span>
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="">Link</a>
         <a class="mdl-navigation__link" href="">Link</a>
         <a class="mdl-navigation__link" href="">Link</a>
         <a class="mdl-navigation__link" href="">Link</a>
       </nav>
-    
-    <main class="mdl-layout__content">
-      </div>
-      <div class="page-content"><!-- Your content goes here -->
-        
-        <!-- Textfield with Floating Label -->
 
-        <form action="/handler.php" method"POST">
+      <main class="mdl-layout__content">
+    </div>
+    <div class="page-content"><!-- Your content goes here -->
 
-          <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-          </div>
-          
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" id="sample3">
-            <label class="mdl-textfield__label" for="sample3">Name:</label> `
-          </div>
+      <!-- Textfield with Floating Label -->
+
+      <form action="/handler.php" method="POST">
+
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    </div>
+
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="sample3" name="userName">
+      <label class="mdl-textfield__label" for="sample3">Name:</label> `
+    </div>
     </main>
     <!-- Raised button with ripple -->
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-      Button
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="submit">
+      Submit
     </button>
-  </form>
+    </form>
 </body>
+
 </html>
